@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+python-multipart
+pymupdf
+asyncio
+langchain-google-genai
+duckduckgo_search==6.3.5
+langchain-community
+python-docx
+PyMuPDF
+langgraph

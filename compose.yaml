@@ -1,0 +1,11 @@
+version: '3.9'
+
+services:
+  server:
+    build:
+      context: .
+    environment:
+      - GOOGLE_API_KEY=INSERT-YOUR-API-KEY-HERE
+    container_name: recruiting-assistant-server
+    ports:
+      - "8000:8000"
